@@ -2,14 +2,38 @@
 
 ## Overview
 
-A structured, methodology-first learning path covering 20 modules across 3 phases.
+A structured, methodology-first learning path covering 20 modules across 4 phases.
 Each lesson teaches the **WHY** (methodology) before the **HOW** (tool), with step-by-step practicals.
 
-**Prerequisites**: Basic Python knowledge (complete the `devops-python-path` first)
+**No prerequisites** — Phase 1 starts from zero programming knowledge.
 
 ---
 
-## Phase 2: Core Skills (Months 1-6) — GET A JOB
+## Phase 1: Python for DevOps (Weeks 1-12) — BUILD YOUR FOUNDATION
+
+A 90-day, 12-week Python course designed specifically for DevOps.
+Located in `phase_1_python/`.
+
+| Weeks | Topics | Format |
+|-------|--------|--------|
+| 1-4 | Variables, control flow, data structures, functions, modules | Daily lesson + exercise + auto-checker |
+| 5-8 | File handling, JSON/YAML, error handling, OS automation, APIs, OOP, testing | Daily lesson + exercise + auto-checker |
+| 9-12 | Docker SDK, AWS boto3, Git automation, CI/CD, Prometheus, Flask, capstone | Daily lesson + exercise + auto-checker |
+
+**84 daily lessons** with exercises and auto-grading checkers + weekly quizzes + progress tracker.
+
+```bash
+# Start here
+cat phase_1_python/ROADMAP.md
+cat phase_1_python/week_01/day_1/lesson.md
+python3 phase_1_python/week_01/day_1/check.py    # Check your answers
+python3 phase_1_python/tracker.py                  # Track progress
+python3 phase_1_python/quiz.py 1                   # Weekly quiz
+```
+
+---
+
+## Phase 2: Core Skills (Months 4-9) — GET A JOB
 
 | # | Module | Lessons | Duration | Key Methodology |
 |---|--------|---------|----------|-----------------|
@@ -46,7 +70,7 @@ Each lesson teaches the **WHY** (methodology) before the **HOW** (tool), with st
 
 ---
 
-## Total: 136 lessons across 20 modules
+## Total: 220 lessons (84 Python + 136 DevOps) across 4 phases and 20 modules
 
 ## How to Use This Path
 
@@ -87,7 +111,10 @@ module_folder/
 ## Quick Start
 
 ```bash
-# Start with Module 01
+# If you're a complete beginner — start with Phase 1 (Python)
+cat phase_1_python/week_01/day_1/lesson.md
+
+# If you already know Python — start with Phase 2 (Linux & Bash)
 cat phase_2_core/01_linux_bash/01_linux_fundamentals.md
 
 # Work through each lesson sequentially
